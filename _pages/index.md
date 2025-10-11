@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+<!-- # Welcome! 🌱 -->
 
 <p style="padding: 1.5em 1em; background: #f5f7ff; border-radius: 4px;">
   <!-- Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration. -->
@@ -13,7 +13,7 @@ permalink: /
 </p>
 
 
-<strong>My Art</strong>
+<strong>My Writings</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "date" | reverse %}
