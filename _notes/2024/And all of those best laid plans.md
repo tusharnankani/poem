@@ -32,4 +32,6 @@ But I wish I could let them go one by one.
 
 </div>
 
+### Context
+
 You know how you scheme big and small things with your partner. And even after those relationships are over, you look back on those plans with a bittersweet feeling. This is to all the plans that were made but never came true. 

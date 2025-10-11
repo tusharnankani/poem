@@ -13,7 +13,7 @@ permalink: /
 </p>
 
 
-<strong>My Art</strong>
+<strong>My Writings</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "date" | reverse %}
@@ -23,6 +23,11 @@ permalink: /
     </li>
   {% endfor %}
 </ul>
+
+
+<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
+
+{% include notes_graph.html %}
 
 <style>
   .wrapper {
