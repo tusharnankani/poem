@@ -4,6 +4,6 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
+Shailja Jadon
 
-Feel free to tell the world about what you love! 😍
+This is a 24th birthday gift for you. Happy Birthday! 
