@@ -4,8 +4,9 @@ date: 2024-05-01
 ---
 
 Here is my version of Colors:
+Sample Line Break 
 
-
+<div class="poetry">
 Colours
 
 I dream of you,  
@@ -51,3 +52,5 @@ Or blue,
 And I miss seeing pink,
 But I'll just have to get used to,
 This version of you.  
+
+</div>

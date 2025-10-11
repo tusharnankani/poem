@@ -144,3 +144,12 @@ code {
   color: #ccc;
   cursor: help;
 }
+
+.poetry {
+  white-space: pre-line;
+}
+
+.poetry br {
+  display: block;
+  content: "";
+}
