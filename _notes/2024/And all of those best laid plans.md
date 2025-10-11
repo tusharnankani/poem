@@ -1,4 +1,3 @@
-
 ---
 title: And all of those best laid plans
 date: 2024-05-13
