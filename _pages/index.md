@@ -5,25 +5,22 @@ id: home
 permalink: /
 ---
 
-<!-- # Welcome! 🌱 -->
-
-<p style="padding: 1.5em 1em; background: #f5f7ff; border-radius: 4px;">
-  <!-- Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration. -->
-  Hey Shailja, Happy 24th Birthday ❤️
-</p>
-
 This is an archive of stillness, movement, and the words in between.
 
-<strong>My Writings</strong>
+<h2>My Writings</h2>
 
+{% assign notes_by_year = site.notes | group_by_exp: "note", "note.date | date: '%Y'" | sort: "name" | reverse %}
+{% for year in notes_by_year %}
+<h3>{{ year.name }}</h3>
 <ul>
-  {% assign recent_notes = site.notes | sort: "date" | reverse %}
-  {% for note in recent_notes %}
+  {% assign items = year.items | sort: "date" | reverse %}
+  {% for note in items %}
     <li>
       {{ note.date | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
     </li>
   {% endfor %}
 </ul>
+{% endfor %}
 
 <style>
   .wrapper {
