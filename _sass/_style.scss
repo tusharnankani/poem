@@ -141,7 +141,7 @@ nav {
 }
 
 .backlink-box {
-  background: $color-box-background;
+  background: var(--color-box-background);
   padding: 1em;
   border-radius: $border-radius;
 }
