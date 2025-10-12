@@ -4,8 +4,8 @@
   --color-subtext: hsl(0, 0%, 30%);
   --color-border: hsl(0, 0%, 85%);
   --color-background: #ffffff;
-  --hover-background: #fffaf1;
-  --focus-background: #ffe8bc;
+  --hover-background: #fffaf199;
+  --focus-background: #fffaf1;
 }
 
 [data-theme="dark"] {
@@ -14,8 +14,8 @@
   --color-subtext: hsl(0, 0%, 70%);
   --color-border: hsl(0, 0%, 30%);
   --color-background: hsl(0, 0%, 10%);
-  --hover-background: hsl(0, 0%, 20%);
-  --focus-background: hsl(35, 100%, 30%);
+  --hover-background: hsl(0, 0%, 15%);
+  --focus-background: hsl(0, 0%, 20%);
 }
 
 $border-radius: 4px;
