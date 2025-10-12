@@ -12,6 +12,7 @@ permalink: /
   Hey Shailja, Happy 24th Birthday ❤️
 </p>
 
+This is an archive of stillness, movement, and the words in between.
 
 <strong>My Writings</strong>
 
