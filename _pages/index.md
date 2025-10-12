@@ -7,9 +7,9 @@ permalink: /
 
 This is an archive of stillness, movement, and the words in between.
 
-<strong>My Writings</strong>
+<h2>My Writings</h2>
 
-{% assign notes_by_year = site.notes | group_by_exp: "note", "note.date | date: '%Y'" %}
+{% assign notes_by_year = site.notes | group_by_exp: "note", "note.date | date: '%Y'" | sort: "name" | reverse %}
 {% for year in notes_by_year %}
 <h3>{{ year.name }}</h3>
 <ul>
