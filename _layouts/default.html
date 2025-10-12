@@ -25,17 +25,38 @@
         align-items: center;
         background-color: #fff;
         z-index: 9999;
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+      }
+      #loading.fade-out {
+        opacity: 0;
       }
       #loading img {
         width: 80px;
         height: 80px;
       }
+      #content {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+      #content.fade-in {
+        opacity: 1;
+      }
     </style>
     <script>
       window.addEventListener('load', function() {
+        const loading = document.getElementById('loading');
+        const content = document.getElementById('content');
+        
+        content.style.display = 'block';
+        
         setTimeout(function() {
-          document.getElementById('loading').style.display = 'none';
-          document.getElementById('content').style.display = 'block';
+          loading.classList.add('fade-out');
+          content.classList.add('fade-in');
+          
+          loading.addEventListener('transitionend', function() {
+            loading.style.display = 'none';
+          });
         }, 1000);
       });
     </script>
