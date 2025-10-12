@@ -4,7 +4,6 @@
   --color-subtext: hsl(0, 0%, 30%);
   --color-border: hsl(0, 0%, 85%);
   --color-background: #ffffff;
-  --color-box-background: hsl(0, 0%, 96%);
   --hover-background: #fffaf1;
   --focus-background: #ffe8bc;
 }
@@ -15,7 +14,6 @@
   --color-subtext: hsl(0, 0%, 70%);
   --color-border: hsl(0, 0%, 30%);
   --color-background: hsl(0, 0%, 10%);
-  --color-box-background: hsl(0, 0%, 15%);
   --hover-background: hsl(0, 0%, 20%);
   --focus-background: hsl(35, 100%, 30%);
 }
@@ -67,7 +65,6 @@ blockquote {
   padding: 1.5em;
   margin: 0;
   font-size: 0.88em;
-  background: var(--color-box-background);
   border-radius: $border-radius;
 
   p {
@@ -141,7 +138,6 @@ nav {
 }
 
 .backlink-box {
-  background: var(--color-box-background);
   padding: 1em;
   border-radius: $border-radius;
 }
