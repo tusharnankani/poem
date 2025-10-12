@@ -3,6 +3,19 @@ title: Modern Indian Woman
 date: 2025-04-15
 ---
 
+### Context
+
+I'm back with another rant of a poem. The next one comes from the anger of having supposed "privilege" of having it easy than women few generations ago. But have things really changed?
+
+Aren't "modern" women still subjected to the "traditional" expectations? Like the scene from one of my favourite movies
+
+"Dil Dhadakne Do" where a character says _"Maine allow kiya Aisha ko kaam karne ke liye"_. Such subtle power play based on gender are more common than we can acknowledge. What's sadder is how most women have internalized these misogynist patterns without realizing it.
+
+Now now now. I know this topic is extremely nuanced and not everyone sees it in the same way. Please take it with a pinch salt.
+
+Cheers to all the "Modern Indian Women"
+
+
 <div class="poetry">
 
 I'm a modern Indian woman,

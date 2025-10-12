@@ -3,6 +3,14 @@ title: I'm not your first
 date: 2024-12-23
 ---
 
+### Context
+
+The next one is about the feeling you have when you know you're not the first love and you won't be the last of a person you love. You are the one in between. You're a phase that your partner may not give much thought to.
+
+The one they will likely want to forget after they settle.
+If you're familiar with this feeling I hope the infinite love you give and deserve.
+
+
 <div class="poetry">
 
 The one in between

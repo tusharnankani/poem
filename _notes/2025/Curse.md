@@ -5,11 +5,11 @@ date: 2025-10-07
 
 ### Context
 
-This one comes straight from the break up archives.
+The next one comes straight from the break up archives.
 
 You know how when you love someone, you just can't wish anything bad for them. But you are also breaking up with them! So you curse them, yell at them, become a tiny maniac! Say and do anything that makes your pain feel heard by this person.
 
-I hope this one sticks to the exes like a curse.
+I hope the next one sticks to the exes like a curse.
 
 <div class="poetry">
 

@@ -7,7 +7,7 @@ date: 2025-01-26
 
 Living vicariously through lovers is beautiful. All of us guilty of imagining grand romantic gestures. But I wonder about the intimacy of being mundane with someone. 
 
-This one imagines the same normality of lives of two people through dialogues exchanged between them.
+The next one imagines the same normality of lives of two people through dialogues exchanged between them.
 
 <div class="poetry">
 
@@ -35,3 +35,7 @@ Whispers in darkness,
 "Another day's complete."
 
 </div>
+
+#### Read more
+
+[[A House of you and me]]

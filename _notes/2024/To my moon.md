@@ -6,7 +6,7 @@ date: 2024-12-30
 <div class="poetry">
 
 Sea touches the sand,
-With its eb and flow,
+With its ebb and flow,
 Their love is the tide,
 That comes and goes.
 Sun burns for the moon,

@@ -31,4 +31,6 @@ But away from everyone's eye.
 
 This poem comes from a person who feels like happiness is fragile. The moment you put it out there, the moment you express it, there will be people who will come to attack you for it. Similarly, for their relationships too, some people just don't want to sabotage it. And therefore, they become very protective almost superstitious about their relationship. I think this poem is about the fear of losing something real with someone great because of some external variable that both of them can't control but can be influenced by. I don't know how much of it makes sense. 
 
+#### Read More 
+
 [[All is fair is hate and poetry]]
