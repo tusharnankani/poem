@@ -5,6 +5,10 @@
     background-color: #effeff;
   }
 
+  [data-theme="dark"] content a.internal-link {
+    background-color: #effeff12;
+  }
+  
   #tooltip-wrapper {
     background: white;
     padding: 1em;
@@ -20,6 +24,12 @@
     transition: opacity 100ms;
   }
 
+  [data-theme="dark"] #tooltip-wrapper {
+    background: hsl(0, 0%, 10%);
+    border: 1px solid hsl(0, 0%, 30%);
+    box-shadow: 0 5px 10px hsl(0, 0%, 15%);
+  }
+
   #tooltip-wrapper:after {
 		content: "";
 		position: absolute;
@@ -30,6 +40,10 @@
 		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
 		width: 100%;
 		height: 75px;
+  }
+
+  [data-theme="dark"] #tooltip-wrapper:after {
+		background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(25, 25, 25) 90%);
   }
 </style>
 
