@@ -31,11 +31,15 @@
     background: var(--hover-background);
     border-radius: 4px;
     height: auto;
+    position: relative;
+    isolation: isolate;
   }
   
   #graph-wrapper > svg {
     max-width: 100%;
     display: block;
+    position: relative;
+    z-index: 1;
   }
 </style>
 
