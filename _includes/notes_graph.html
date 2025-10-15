@@ -1,25 +1,25 @@
 <style>
   .links line {
-    stroke: var(--color-border);
+    stroke: var(--graph-stroke);
     opacity: 0.5;
   }
 
   .nodes circle {
     cursor: pointer;
-    fill: var(--color-primary);
+    fill: var(--graph-node);
     transition: all 0.15s ease-out;
   }
 
   .text text {
     cursor: pointer;
-    fill: var(--color-text);
-    text-shadow: -1px -1px 0 var(--color-background), 1px -1px 0 var(--color-background), -1px 1px 0 var(--color-background), 1px 1px 0 var(--color-background);
+    fill: var(--graph-text);
+    text-shadow: -1px -1px 0 var(--graph-text-shadow), 1px -1px 0 var(--graph-text-shadow), -1px 1px 0 var(--graph-text-shadow), 1px 1px 0 var(--graph-text-shadow);
   }
 
   .nodes [active],
   .text [active] {
     cursor: pointer;
-    fill: var(--color-primary);
+    fill: var(--graph-node-active);
   }
 
   .inactive {
@@ -28,7 +28,7 @@
   }
 
   #graph-wrapper {
-    background: var(--hover-background);
+    background: var(--graph-bg);
     border-radius: 4px;
     height: auto;
   }
