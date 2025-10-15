@@ -3,8 +3,6 @@ title: My body is still
 date: 2024-12-21
 ---
 
-Anxiety
-
 <div class="poetry">
 
 My body is still
