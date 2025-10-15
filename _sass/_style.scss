@@ -6,6 +6,12 @@
   --color-background: #ffffff;
   --hover-background: #fffaf199;
   --focus-background: #fffaf1;
+  --graph-stroke: #ccc;
+  --graph-node: #8b88e6;
+  --graph-text: #333;
+  --graph-text-shadow: #fafafabb;
+  --graph-node-active: #000;
+  --graph-bg: #fcfcfc;
 }
 
 [data-theme="dark"] {
@@ -16,6 +22,12 @@
   --color-background: hsl(0, 0%, 10%);
   --hover-background: hsl(0, 0%, 15%);
   --focus-background: hsl(0, 0%, 20%);
+  --graph-stroke: #ccc;
+  --graph-node: #8b88e6;
+  --graph-text: #333;
+  --graph-text-shadow: #fafafabb;
+  --graph-node-active: #000;
+  --graph-bg: #fcfcfc;
 }
 
 $border-radius: 4px;
