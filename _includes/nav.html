@@ -21,9 +21,11 @@
     color: var(--color-text);
     width: 24px;
     height: 24px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 150px;
 }
 
 #theme-toggle:hover {
@@ -33,20 +35,31 @@
 .sun-icon, .moon-icon {
     width: 24px;
     height: 24px;
-    transition: all 0.3s ease;
+    position: absolute;
+    transition: transform 0.5s ease, opacity 0.5s ease;
     opacity: 0.8;
 }
 
+.sun-icon {
+    transform: rotate(0deg);
+}
+
+.moon-icon {
+    transform: rotate(-90deg);
+}
+
 [data-theme="dark"] .sun-icon {
-    display: none;
+    opacity: 0;
+    transform: rotate(90deg);
 }
 
 [data-theme="light"] .moon-icon {
-    display: none;
+    opacity: 0;
+    transform: rotate(90deg);
 }
 
-#theme-toggle:hover .sun-icon,
-#theme-toggle:hover .moon-icon {
+#theme-toggle:hover .sun-icon:not([data-theme="dark"] *),
+#theme-toggle:hover .moon-icon:not([data-theme="light"] *) {
     opacity: 1;
 }
 </style>
