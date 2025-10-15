@@ -1,5 +1,5 @@
 ---
-title: Curse
+title: The Curse
 date: 2025-10-07
 ---
 

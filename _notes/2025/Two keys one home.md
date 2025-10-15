@@ -28,7 +28,8 @@ Two spoons, one plate,
 The same old debate.
 
 Two chores, one toss,
-or do e, ways est the dishes
+"How do I always get the dishes?"
+"Sorry babe, your loss."
 
 Two pillows, one sheet, 
 Whispers in darkness,
